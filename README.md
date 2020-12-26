@@ -1,15 +1,22 @@
 # scripts-public
 ---
+Tested on Debian 10 x64
 
 ### Full Hass install 
     apt-get install curl
+    
     curl -sL https://raw.githubusercontent.com/0nikola1/scripts-public/main/install_hass.sh | bash -s
+    
+### Full Hass install with ZeroTier on host
+    apt-get install curl
+    
+    curl -sL https://raw.githubusercontent.com/0nikola1/scripts-public/main/install_hass_zt.sh | bash -s
 
-
-### Before Hassio 
+### HA install part by part
+#### Before Hassio 
 
     curl -sL https://raw.githubusercontent.com/0nikola1/scripts-public/main/install_before_hassio.sh | bash -s
-### Hassio Supervisor
+#### Hassio Supervisor
 
     curl -sL https://raw.githubusercontent.com/0nikola1/scripts-public/main/install_hassio_supervisor.sh | bash -s
 
