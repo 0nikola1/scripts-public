@@ -19,6 +19,9 @@ Tested on Debian 10 x64
 #### Hassio Supervisor
 
     curl -sL https://raw.githubusercontent.com/0nikola1/scripts-public/main/install_hassio_supervisor.sh | bash -s
+    
+#### HACS
+    curl -sL https://raw.githubusercontent.com/0nikola1/scripts-public/main/install_hacs.sh | bash -s 
 
 ### Docker
 
