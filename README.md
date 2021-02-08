@@ -22,9 +22,8 @@ Tested on Debian 10 x64
     
 #### HACS
     curl -sL https://raw.githubusercontent.com/0nikola1/scripts-public/main/install_hacs.sh | bash -s 
-#### HA ftp addon
-    curl -sL    https://raw.githubusercontent.com/0nikola1/scripts-public/dev/install_ha_ftp.sh | bash -s 
-
+#### HA addons
+    curl -sL https://raw.githubusercontent.com/0nikola1/scripts-public/dev/install_addons.sh | bash -s 
 
 ### Docker
 
