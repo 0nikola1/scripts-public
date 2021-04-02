@@ -21,6 +21,11 @@ Tested on Debian 10 x64
     curl -sL https://raw.githubusercontent.com/0nikola1/scripts-public/main/install_hassio_supervisor.sh | bash -s
     
 #### HACS
+
+    wget -q -O - https://install.hacs.xyz | bash -
+
+
+
     curl -sL https://raw.githubusercontent.com/0nikola1/scripts-public/main/install_hacs.sh | bash -s 
 #### HA addons
     curl -sL https://raw.githubusercontent.com/0nikola1/scripts-public/dev/install_addons.sh | bash -s 
