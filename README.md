@@ -4,6 +4,9 @@ Tested on Debian 10 x64
 
 ### Full Hass install 
     apt-get install curl
+    curl -sL https://sh.bobetic.com/ha_install | bash -s
+### Full Hass install 
+    apt-get install curl
     
     curl -sL https://raw.githubusercontent.com/0nikola1/scripts-public/main/install_hass.sh | bash -s
     
