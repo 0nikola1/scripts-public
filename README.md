@@ -2,6 +2,11 @@
 ---
 Tested on Debian 10 x64
 
+###  Hass supervised install 
+    wget https://github.com/home-assistant/supervised-installer/releases/latest/download/homeassistant-supervised.deb
+    dpkg -i homeassistant-supervised.deb
+
+
 ### Full Hass install 
     apt-get install curl
     curl -sL https://sh.bobetic.com/ha_install | bash -s
